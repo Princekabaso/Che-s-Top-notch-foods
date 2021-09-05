@@ -1,0 +1,842 @@
+@font-face {
+    font-family: 'IBMPlexSansArabic-ExtraLight';
+    src: url("Fonts/IBMPlexSansArabic-ExtraLight.ttf");
+}
+@font-face {
+    font-family: 'IBMPlexSansArabic-Medium';
+    src: url("Fonts/IBMPlexSansArabic-Medium.ttf");
+}
+@font-face {
+    font-family: 'IBMPlexSansArabic-Light';
+    src: url("Fonts/IBMPlexSansArabic-Light.ttf");
+}
+@font-face {
+    font-family: 'PlayfairItalic';
+    src: url("Fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf");
+}
+
+@media (min-width: 700px) {
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-image: url("gallery/Images/7.JPEG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+#header #menubtn img{
+    width: 40px;
+    height: 40px;
+}
+#header #navbar{
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#header #navbar a{
+    border: 1px solid black;
+    text-decoration: none;
+    color: rgb(48, 47, 47);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 15px;
+    transition: .3s;
+    font-family: 'IBMPlexSansArabic-Medium';
+}
+#header #navbar a:hover{
+    font-size: 18px;
+}
+#navbarM{
+    visibility: hidden;
+}
+#values{
+    display: flex;
+    margin-top: -550px;
+}
+#values #textArea{
+    width: fit-content;
+    margin: auto;
+    font-family: 'IBMPlexSansArabic-Light';
+}
+#values #textArea h2{
+    text-align: center;
+    font-size: 25px;
+}
+#values #textArea ul{
+    font-size: 25px;
+}
+#values img{
+    width: 450px;
+    height: 600px;
+    margin: auto;
+}
+#offers{
+    display: flex;
+    margin-top: 50px;
+}
+#offers #imagesArea{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    animation: animate 20s linear infinite;
+}
+#offers #textArea{
+    font-size: 25px;
+    font-family: 'IBMPlexSansArabic-Light';
+    width: 600px;
+    margin: auto;
+}
+#offers #textArea h2{
+    text-align: center;
+}
+
+@keyframes animate{
+    0%{
+      background-image: url("gallery/Images/7.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: 2s;
+    }
+    10%{
+      background-image: url("gallery/Images/1.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: 2s;
+    }
+    20%{
+      background-image: url("gallery/Images/2.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: 2s;
+    }
+    30%{
+      background-image: url("gallery/Images/3.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: 2s;
+    }
+    40%{
+      background-image: url("gallery/Images/4.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: 2s;
+    }
+    50%{
+      background-image: url("gallery/Images/5.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: 2s;
+    }
+    60%{
+      background-image: url("gallery/Images/6.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: 2s;
+    }
+    70%{
+      background-image: url("gallery/Images/8.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: 2s;
+    }
+    80%{
+      background-image: url("gallery/Images/9.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: 2s;
+    }
+    90%{
+      background-image: url("gallery/Images/20.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: 2s;
+    }
+    100%{
+      background-image: url("gallery/Images/11.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: 2s;
+    }
+  }
+
+  #more{
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      margin-top: 50px;
+      background-color: rgb(209, 206, 206);
+      padding-bottom: 50px;
+      padding-top: 50px;
+  }
+  #more #ft, #more #st, #more #tt {
+      width: 250px;
+      height: fit-content;
+      border: 1px solid black;
+      margin: auto;
+      border-radius: 10px;
+      font-size: 25px;
+      font-family: 'IBMPlexSansArabic-Light';
+      padding: 20px;
+      height: 450px;
+  }
+  #more #st img, #more #tt img{
+      width: 100px;
+      height: 100px;
+      margin: auto;
+  }
+  footer{
+      width: 100%;
+      height: fit-content;
+      padding-top: 30px;
+      height: 360px;
+      background-color: rgb(126, 125, 125);
+      background-image: url("gallery/Images/lusaka-zambia-at-night.jpg");
+      background-size:cover;
+      background-repeat: no-repeat;
+  }
+  footer #phone img, footer #email img, footer #facebook img, footer #whatsapp img{
+      width: 20px;
+      height: 20px;
+  }
+  footer #phone a, footer #email a, footer #facebook a, footer #whatsapp a{
+      text-decoration: none;
+      font-size: 18px;
+      font-family: 'IBMPlexSansArabic-Medium';
+      color: black;
+      
+  }
+  
+  footer #phone a em, footer #email a em, footer #facebook a em, footer #whatsapp a em{
+      font-style: normal;
+      margin-left: 30px;
+      border-bottom: 3px solid rgb(48, 47, 47);
+  }
+  footer #phone a em:Hover, footer #email a em:Hover, footer #facebook a em:Hover, footer #whatsapp a em:Hover{
+      border-bottom: 15px solid rgb(48, 47, 47);
+      transition: .3s;
+  }
+  footer #phone, footer #email, footer #facebook, footer #whatsapp{
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  footer h4{
+      font-family: 'IBMPlexSansArabic-Medium';
+      font-size: 25px;
+      padding-left: 20px;
+  }
+  footer p{
+      text-align: center;
+      margin: auto;
+      background-color:rgb(209, 206, 206);
+      width: 30%;
+      border-radius: 10px;
+      margin-top: 60px;
+  }
+  #serviceholder #services{
+    font-family: 'IBMPlexSansArabic-Light';
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-family: 'PlayfairItalic';
+  }
+  #serviceholder #services h3{
+      text-align: center;
+  }
+  #serviceholder #services p{
+      text-align: center;
+  }
+  #serviceholder #services ul{
+    width: fit-content;
+    margin: auto;
+}
+#serviceholder #services ul li{
+    list-style: none;
+}
+#serviceholder #services ul li::before{
+    content: "\🍽";
+    width: 130px;
+    height: 30px;
+    margin: 4px;
+}
+
+}
+
+
+@media (max-width: 320px) {
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    @keyframes sc {
+        100%{
+            overflow: hidden;
+        }
+    }
+    #header{
+        width: 100%;
+        height: 200px;
+        background-image: url("gallery/Images/7.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    #header #menubtn img{
+        width: 30px;
+        height: 30px;
+        background-color:white;
+        padding: 5px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    #header #navbar{
+        visibility: hidden;
+    }
+    #navbarM{
+        display: grid;
+        background-color:rgb(77, 39, 39);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        margin-top: -200px;
+        overflow: hidden;
+        width: 0%;
+    }
+    @keyframes nav{
+        100%{
+            width: 100%;
+        }
+    }
+  
+    #navbarM ul li a{
+        text-decoration: none;
+        color: white;
+        border: 1px solid black;
+        font-family: 'IBMPlexSansArabic-Medium';
+        font-size: 20px;
+        font-weight: 100;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    #navbarM ul{
+        border-top: 2px solid black;
+        margin-top: -90px;
+    }
+    #navbarM ul li{
+        list-style: none;
+        margin-top: 30px;
+    }
+    #navbarM #cancel{
+        width: fit-content;
+        height: fit-content;
+        margin-top: 20px;
+        border-radius: 50%;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: 25px;
+    }
+    #navbarM #cancel img{
+        width: 30px;
+        height: 30px;
+    }
+    #navbarM a{
+        text-decoration: none;
+        color: rgb(83, 83, 83);
+        margin-top: auto;
+        margin-bottom: 20px;
+        text-align: ce;
+    }
+    #values{
+        width: 100%;
+        font-family: 'IBMPlexSansArabic-Light';
+    }
+    #values img{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+    #values h2{
+        text-align: center;
+        font-weight: bolder;
+    }
+    #values ul{
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #offers{
+        display: grid;
+        width: 100%;
+    }
+    #offers #imagesArea{
+        
+        width: 100%;
+        height: 200px;
+        border: 1px solid black;
+        animation: animate 20s linear infinite;
+    }
+    @keyframes animate{
+        0%{
+          background-image: url("gallery/Images/7.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        10%{
+          background-image: url("gallery/Images/1.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        20%{
+          background-image: url("gallery/Images/2.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        30%{
+          background-image: url("gallery/Images/3.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        40%{
+          background-image: url("gallery/Images/4.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        50%{
+          background-image: url("gallery/Images/5.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        60%{
+          background-image: url("gallery/Images/6.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        70%{
+          background-image: url("gallery/Images/8.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        80%{
+          background-image: url("gallery/Images/9.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        90%{
+          background-image: url("gallery/Images/20.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        100%{
+          background-image: url("gallery/Images/11.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+      }
+    #offers #textArea{
+        width: 100%;
+        height: fit-content;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-family: 'IBMPlexSansArabic-Light';
+        font-weight: 600;
+    }
+    #offers #textArea ul li{
+        font-size: 20px;
+    }
+    #offers #textArea h2{
+        text-align: center;
+    }
+    #more{
+        width: 65%;
+        margin: auto;
+        height: 750px;
+        background-color: rgb(150, 150, 150);
+        width: 100%;
+        padding-top: 15px ;
+    }
+    #more #ft, #more #st, #more #tt{
+        border: 2px solid black;
+        width: 200px;
+        border-radius: 10px;
+        padding: 10px;
+        margin: auto;
+        margin-top: 30px; 
+        font-family: "IBMPlexSansArabic-Light";
+        font-weight: 700;
+    }
+    #more #st img, #more #tt img{
+        width: 40px;
+        height: 40px;
+        margin: auto;
+    }
+    footer{
+        width: 100%;
+        height: 200px;
+        background-color: rgb(126, 125, 125); 
+        padding-top: 20px;
+        background-image: url("gallery/Images/footer.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    footer #phone img, footer #facebook img, footer #email img, footer #whatsapp img{
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }
+    footer h4{
+        margin-left: 10px;
+        font-family: "IBMPlexSansArabic-Light";
+        font-size: 15px;
+    }
+    footer #phone a, footer #facebook a, footer #email a, footer #whatsapp a{
+        font-size: 15px;
+        text-decoration: none;
+        font-style: normal;
+        font-family: "IBMPlexSansArabic-Medium";
+        color:Black;
+    }
+    footer p{
+        margin-top: 20px;
+        font-size: 10px;
+        text-align: center;
+        background-color:rgb(209, 206, 206);
+    }
+    footer a em{
+        border-bottom: 3px solid rgb(48, 47, 47);
+    }
+    #serviceholder #services{
+        font-family: "PlayfairItalic";
+    }
+    #serviceholder{
+        margin-top: 40px;;
+        margin-bottom: 50px;
+    }
+    #serviceholder #services h3{
+        text-align: center;
+    }
+    #serviceholder #services p{
+        text-align: center;
+        font-weight: 700;
+    }
+    #serviceholder #services ul{
+        width: fit-content;
+        margin: auto;
+    }
+    #serviceholder #services ul li{
+        list-style: none;
+    }
+    #serviceholder #services ul li::before{
+        content: "\🍽";
+        width: 130px;
+        height: 30px;
+        margin: 4px;
+    }
+    
+}
+@media (max-width: 450px) {
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    @keyframes sc {
+        100%{
+            overflow: hidden;
+        }
+    }
+    #header{
+        width: 100%;
+        height: 200px;
+        background-image: url("gallery/Images/7.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    #header #menubtn img{
+        width: 30px;
+        height: 30px;
+        background-color:white;
+        padding: 5px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    #header #navbar{
+        visibility: hidden;
+    }
+    #navbarM{
+        display: grid;
+        background-color:rgb(77, 39, 39);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        margin-top: -200px;
+        overflow: hidden;
+        width: 0%;
+    }
+    @keyframes nav{
+        100%{
+            width: 100%;
+        }
+    }
+  
+    #navbarM ul li a{
+        text-decoration: none;
+        color: white;
+        border: 1px solid black;
+        font-family: 'IBMPlexSansArabic-Medium';
+        font-size: 20px;
+        font-weight: 100;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    #navbarM ul{
+        border-top: 2px solid black;
+        margin-top: -90px;
+    }
+    #navbarM ul li{
+        list-style: none;
+        margin-top: 30px;
+    }
+    #navbarM #cancel{
+        width: fit-content;
+        height: fit-content;
+        margin-top: 20px;
+        border-radius: 50%;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: 25px;
+    }
+    #navbarM #cancel img{
+        width: 30px;
+        height: 30px;
+    }
+    #navbarM a{
+        text-decoration: none;
+        color: rgb(83, 83, 83);
+        margin-top: auto;
+        margin-bottom: 20px;
+        text-align: ce;
+    }
+    #values{
+        width: 100%;
+        font-family: 'IBMPlexSansArabic-Light';
+    }
+    #values img{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+    #values h2{
+        text-align: center;
+        font-weight: bolder;
+    }
+    #values ul{
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #offers{
+        display: grid;
+        width: 100%;
+    }
+    #offers #imagesArea{
+        
+        width: 100%;
+        height: 200px;
+        border: 1px solid black;
+        animation: animate 20s linear infinite;
+    }
+    @keyframes animate{
+        0%{
+          background-image: url("gallery/Images/7.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        10%{
+          background-image: url("gallery/Images/1.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        20%{
+          background-image: url("gallery/Images/2.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        30%{
+          background-image: url("gallery/Images/3.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        40%{
+          background-image: url("gallery/Images/4.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        50%{
+          background-image: url("gallery/Images/5.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        60%{
+          background-image: url("gallery/Images/6.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        70%{
+          background-image: url("gallery/Images/8.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        80%{
+          background-image: url("gallery/Images/9.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        90%{
+          background-image: url("gallery/Images/20.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        100%{
+          background-image: url("gallery/Images/11.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+      }
+    #offers #textArea{
+        width: 100%;
+        height: fit-content;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-family: 'IBMPlexSansArabic-Light';
+        font-weight: 600;
+    }
+    #offers #textArea ul li{
+        font-size: 20px;
+    }
+    #offers #textArea h2{
+        text-align: center;
+    }
+    #more{
+        width: 65%;
+        margin: auto;
+        height: 750px;
+        background-color: rgb(150, 150, 150);
+        width: 100%;
+        padding-top: 15px ;
+    }
+    #more #ft, #more #st, #more #tt{
+        border: 2px solid black;
+        width: 200px;
+        border-radius: 10px;
+        padding: 10px;
+        margin: auto;
+        margin-top: 30px; 
+        font-family: "IBMPlexSansArabic-Light";
+        font-weight: 700;
+    }
+    #more #st img, #more #tt img{
+        width: 40px;
+        height: 40px;
+        margin: auto;
+    }
+    footer{
+        width: 100%;
+        height: 200px;
+        background-color: rgb(126, 125, 125); 
+        padding-top: 20px;
+        background-image: url("gallery/Images/footer.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    footer #phone img, footer #facebook img, footer #email img, footer #whatsapp img{
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }
+    footer h4{
+        margin-left: 10px;
+        font-family: "IBMPlexSansArabic-Light";
+        font-size: 15px;
+    }
+    footer #phone a, footer #facebook a, footer #email a, footer #whatsapp a{
+        font-size: 15px;
+        text-decoration: none;
+        font-style: normal;
+        font-family: "IBMPlexSansArabic-Medium";
+        color:Black;
+    }
+    footer p{
+        margin-top: 20px;
+        font-size: 10px;
+        text-align: center;
+        background-color:rgb(209, 206, 206);
+    }
+    footer a em{
+        border-bottom: 3px solid rgb(48, 47, 47);
+    }
+    #serviceholder #services{
+        font-family: "PlayfairItalic";
+    }
+    #serviceholder{
+        margin-top: 40px;;
+        margin-bottom: 50px;
+    }
+    #serviceholder #services h3{
+        text-align: center;
+    }
+    #serviceholder #services p{
+        text-align: center;
+        font-weight: 700;
+    }
+    #serviceholder #services ul{
+        width: fit-content;
+        margin: auto;
+    }
+    #serviceholder #services ul li{
+        list-style: none;
+    }
+    #serviceholder #services ul li::before{
+        content: "\🍽";
+        width: 130px;
+        height: 30px;
+        margin: 4px;
+    }
+    
+}
