@@ -66,6 +66,7 @@ body{
 #about #text p{
     font-size: 25px;
     font-family: 'IBMPlexSansArabic-Light';
+    text-align: center;
 }
 /*end of code to add to github*/
 
@@ -770,6 +771,7 @@ body{
         margin-top: -20px;
         text-align: center;
         font-size: 16px; 
+        text-align: center;
     }
     #imageArea #image{
         width: 180px;
@@ -1110,6 +1112,7 @@ body{
     margin-top: -20px;
     text-align: center;
     font-size: 16px; 
+    text-align: center;
 }
 #imageArea #image{
     width: 180px;
@@ -1144,6 +1147,7 @@ body{
 #about #text p{
     font-size: 18px;
     font-family: 'IBMPlexSansArabic-Light';
+    text-align: center;
 }
 /*end of code to add to github*/
 
