@@ -21,6 +21,60 @@ body{
     padding: 0;
 }
 
+
+
+/*code to add to GITHUB*/
+#imageArea{
+    width: 100%;
+    margin-top: -820px;
+}
+#imageArea h1, #imageArea p{
+    text-align: center;
+    font-family: 'IBMPlexSansArabic-Medium';
+}
+#imageArea p{
+    margin-top: -20px;
+    text-align: center;
+}
+#imageArea #image{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    background-image: url("gallery/About Images/IMG-20210910-WA0000.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: auto;
+}
+/*About Area*/
+#about{
+    width: 100%;
+    height: fit-content;
+    margin-top: 80px;
+}
+#about #text{
+    width: 75%;
+    margin-left: auto;
+    margin: auto;
+}
+#about #text h1{
+    text-align: center;
+    font-family: 'IBMPlexSansArabic-Light';
+}
+#about #text p{
+    font-size: 25px;
+    font-family: 'IBMPlexSansArabic-Light';
+}
+/*end of code to add to github*/
+
+
+
+
+
+
+
 #header{
     display: flex;
     width: 100%;
@@ -63,7 +117,7 @@ body{
 }
 #values{
     display: flex;
-    margin-top: -550px;
+    margin-top: 200px;
 }
 #values #textArea{
     width: fit-content;
@@ -358,6 +412,61 @@ body{
         margin-bottom: 20px;
         text-align: ce;
     }
+
+    /*code to add to GITHUB*/
+#imageArea{
+    width: 100%;
+    margin-top: -80px;
+}
+#imageArea h1, #imageArea p{
+    text-align: center;
+    font-family: 'IBMPlexSansArabic-Medium';
+    font-size: 25px; 
+}
+#imageArea p{
+    margin-top: -20px;
+    text-align: center;
+    font-size: 16px; 
+}
+#imageArea #image{
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    background-image: url("gallery/About Images/IMG-20210910-WA0000.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: auto;
+}
+
+
+
+/*About Area*/
+#about{
+    width: 100%;
+    height: fit-content;
+    margin-top: 80px;
+}
+#about #text{
+    width: 95%;
+    margin-left: auto;
+    margin: auto;
+}
+#about #text h1{
+    text-align: center;
+    font-family: 'IBMPlexSansArabic-Light';
+}
+#about #text p{
+    font-size: 18px;
+    font-family: 'IBMPlexSansArabic-Light';
+}
+/*end of code to add to github*/
+
+
+
+
     #values{
         width: 100%;
         font-family: 'IBMPlexSansArabic-Light';
@@ -641,6 +750,405 @@ body{
         margin-bottom: 20px;
         text-align: ce;
     }
+
+
+
+
+
+    /*code to add to GITHUB*/
+    #imageArea{
+        width: 100%;
+        margin-top: -80px;
+    }
+    #imageArea h1, #imageArea p{
+        text-align: center;
+        font-family: 'IBMPlexSansArabic-Medium';
+        font-size: 25px; 
+    }
+    #imageArea p{
+        margin-top: -20px;
+        text-align: center;
+        font-size: 16px; 
+    }
+    #imageArea #image{
+        width: 180px;
+        height: 180px;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        background-image: url("gallery/About Images/IMG-20210910-WA0000.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        margin: auto;
+    }
+    
+    
+    
+    /*About Area*/
+    #about{
+        width: 100%;
+        height: fit-content;
+        margin-top: 80px;
+    }
+    #about #text{
+        width: 95%;
+        margin-left: auto;
+        margin: auto;
+    }
+    #about #text h1{
+        text-align: center;
+        font-family: 'IBMPlexSansArabic-Light';
+    }
+    #about #text p{
+        font-size: 18px;
+        font-family: 'IBMPlexSansArabic-Light';
+    }
+    /*end of code to add to github*/
+    
+
+
+
+
+    #values{
+        width: 100%;
+        font-family: 'IBMPlexSansArabic-Light';
+    }
+    #values img{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+    #values h2{
+        text-align: center;
+        font-weight: bolder;
+    }
+    #values ul{
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #offers{
+        display: grid;
+        width: 100%;
+    }
+    #offers #imagesArea{
+        
+        width: 100%;
+        height: 200px;
+        border: 1px solid black;
+        animation: animate 20s linear infinite;
+    }
+    @keyframes animate{
+        0%{
+          background-image: url("gallery/Images/7.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        10%{
+          background-image: url("gallery/Images/1.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        20%{
+          background-image: url("gallery/Images/2.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        30%{
+          background-image: url("gallery/Images/3.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        40%{
+          background-image: url("gallery/Images/4.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        50%{
+          background-image: url("gallery/Images/5.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        60%{
+          background-image: url("gallery/Images/6.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        70%{
+          background-image: url("gallery/Images/8.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        80%{
+          background-image: url("gallery/Images/9.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        90%{
+          background-image: url("gallery/Images/20.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+        100%{
+          background-image: url("gallery/Images/11.jpeg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          transition: 2s;
+        }
+      }
+    #offers #textArea{
+        width: 100%;
+        height: fit-content;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-family: 'IBMPlexSansArabic-Light';
+        font-weight: 600;
+    }
+    #offers #textArea ul li{
+        font-size: 20px;
+    }
+    #offers #textArea h2{
+        text-align: center;
+    }
+    #more{
+        width: 65%;
+        margin: auto;
+        height: 750px;
+        background-color: rgb(150, 150, 150);
+        width: 100%;
+        padding-top: 15px ;
+    }
+    #more #ft, #more #st, #more #tt{
+        border: 2px solid black;
+        width: 200px;
+        border-radius: 10px;
+        padding: 10px;
+        margin: auto;
+        margin-top: 30px; 
+        font-family: "IBMPlexSansArabic-Light";
+        font-weight: 700;
+    }
+    #more #st img, #more #tt img{
+        width: 40px;
+        height: 40px;
+        margin: auto;
+    }
+    footer{
+        width: 100%;
+        height: 200px;
+        background-color: rgb(126, 125, 125); 
+        padding-top: 20px;
+        background-image: url("gallery/Images/footer.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    footer #phone img, footer #facebook img, footer #email img, footer #whatsapp img{
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }
+    footer h4{
+        margin-left: 10px;
+        font-family: "IBMPlexSansArabic-Light";
+        font-size: 15px;
+    }
+    footer #phone a, footer #facebook a, footer #email a, footer #whatsapp a{
+        font-size: 15px;
+        text-decoration: none;
+        font-style: normal;
+        font-family: "IBMPlexSansArabic-Medium";
+        color:Black;
+    }
+    footer p{
+        margin-top: 20px;
+        font-size: 10px;
+        text-align: center;
+        background-color:rgb(209, 206, 206);
+    }
+    footer a em{
+        border-bottom: 3px solid rgb(48, 47, 47);
+    }
+    #serviceholder #services{
+        font-family: "PlayfairItalic";
+    }
+    #serviceholder{
+        margin-top: 40px;;
+        margin-bottom: 50px;
+    }
+    #serviceholder #services h3{
+        text-align: center;
+    }
+    #serviceholder #services p{
+        text-align: center;
+        font-weight: 700;
+    }
+    #serviceholder #services ul{
+        width: fit-content;
+        margin: auto;
+    }
+    #serviceholder #services ul li{
+        list-style: none;
+    }
+    #serviceholder #services ul li::before{
+        content: "\🍽";
+        width: 130px;
+        height: 30px;
+        margin: 4px;
+    }
+    
+}
+
+@media (max-width: 668px) {
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    @keyframes sc {
+        100%{
+            overflow: hidden;
+        }
+    }
+    #header{
+        width: 100%;
+        height: 200px;
+        background-image: url("gallery/Images/7.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    #header #menubtn img{
+        width: 30px;
+        height: 30px;
+        background-color:white;
+        padding: 5px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    #header #navbar{
+        visibility: hidden;
+    }
+    #navbarM{
+        display: grid;
+        background-color:rgb(77, 39, 39);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        margin-top: -200px;
+        overflow: hidden;
+        width: 0%;
+    }
+    @keyframes nav{
+        100%{
+            width: 100%;
+        }
+    }
+  
+    #navbarM ul li a{
+        text-decoration: none;
+        color: white;
+        border: 1px solid black;
+        font-family: 'IBMPlexSansArabic-Medium';
+        font-size: 20px;
+        font-weight: 100;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    #navbarM ul{
+        border-top: 2px solid black;
+        margin-top: -90px;
+    }
+    #navbarM ul li{
+        list-style: none;
+        margin-top: 30px;
+    }
+    #navbarM #cancel{
+        width: fit-content;
+        height: fit-content;
+        margin-top: 20px;
+        border-radius: 50%;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: 25px;
+    }
+    #navbarM #cancel img{
+        width: 30px;
+        height: 30px;
+    }
+    #navbarM a{
+        text-decoration: none;
+        color: rgb(83, 83, 83);
+        margin-top: auto;
+        margin-bottom: 20px;
+        text-align: ce;
+    }
+
+    /*code to add to GITHUB*/
+#imageArea{
+    width: 100%;
+    margin-top: -80px;
+}
+#imageArea h1, #imageArea p{
+    text-align: center;
+    font-family: 'IBMPlexSansArabic-Medium';
+    font-size: 25px; 
+}
+#imageArea p{
+    margin-top: -20px;
+    text-align: center;
+    font-size: 16px; 
+}
+#imageArea #image{
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    background-image: url("gallery/About Images/IMG-20210910-WA0000.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: auto;
+}
+
+
+
+/*About Area*/
+#about{
+    width: 100%;
+    height: fit-content;
+    margin-top: 80px;
+}
+#about #text{
+    width: 95%;
+    margin-left: auto;
+    margin: auto;
+}
+#about #text h1{
+    text-align: center;
+    font-family: 'IBMPlexSansArabic-Light';
+}
+#about #text p{
+    font-size: 18px;
+    font-family: 'IBMPlexSansArabic-Light';
+}
+/*end of code to add to github*/
+
+
+
+
     #values{
         width: 100%;
         font-family: 'IBMPlexSansArabic-Light';
