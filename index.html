@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Che's Topnotch Foods</title>
+    <link rel="icon" href="gallery/Icons/fork.png">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="Images and forms.css">
 </head>
@@ -180,16 +181,45 @@
 </div></div>
 
 
-<!--COMMENT SECTION-->
-<div id="formContainer"><form method="post">
-    <h1>Give Us Your Feedback<h1><br>
-    <input type="text" name="UserName" placeholder="Name" id="input"><br>
-    <textarea type="text" name="textdata" placeholder="comment" id="comment"></textarea><br>
-   <a href="#Comments"><input type="submit" value="Send Message" id="submit"></a>
-    
-  </form></div>
   <style>
     @media (min-width: 700px) {
+        #header{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-image: url("gallery/Images/7.JPEG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+#header #menubtn img{
+    width: 40px;
+    height: 40px;
+}
+#header #navbar{
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#header #navbar a{
+    border: 1px solid black;
+    text-decoration: none;
+    color: rgb(48, 47, 47);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 15px;
+    transition: .3s;
+    font-family: 'IBMPlexSansArabic-Medium';
+}
+#header #navbar a:hover{
+    font-size: 18px;
+}    
     #more{
         margin-bottom: 100px;
     }    
@@ -1348,26 +1378,84 @@
 }
     
 </style>
-  <div id="Comments">
-</style>
-  <?php
-              
-if(isset($_POST['textdata']))
-{
-	
-    $data=$_POST['textdata'];
-    $UserName = $_POST['UserName'];
-    $file = file_get_contents("Comments.txt"); 
-    $fp = fopen('Comments.txt', 'w');
-    fwrite($fp, "<br><div class=Any><img src=gallery/Icons/chefs.png><h1>".$UserName."</h1></div>
-    <div class=com><p>".$data."</p></div>".$file);
-    fclose($fp);
-}
-?>
-<?php
-include("Comments.txt");
-?>
-</div>
+ <div id="prices"><div id="pricesbtn"><img src="hand-pointer.png" alt=""></div><a href="Prices.html">MENUS AND PRICES</a></div>
+ <style>
+     #prices{
+         width: fit-content;
+         height: fit-content;
+         margin: auto;
+         margin-bottom: 20px;
+         display: flex;
+     }
+     #prices #pricesbtn{
+         width: 50px;
+         height: fit-content;
+     }
+     #prices #pricesbtn img{
+         width: 30px;
+         height: 30px;
+         transform: rotate(90deg);
+         animation: price .5s linear infinite;
+     }
+     @keyframes price{
+         100%{
+             margin-left: 15px;
+         }
+     }
+     #prices a{
+         border: 2px solid brown;
+         text-decoration: none;
+         padding: 10px;
+         color: brown;
+     }
+     #prices a:hover{
+         background-color: brown;
+         color: white;
+     }
+     @media (max-width: 320px) {
+        #prices{
+         width: fit-content;
+         height: fit-content;
+         margin: auto;
+         margin-bottom: 20px;
+         display: flex;
+         margin-left: 20px;
+     }
+     #prices #pricesbtn{
+         width: 50px;
+         height: fit-content;
+     }
+     #prices #pricesbtn img{
+         width: 30px;
+         height: 30px;
+         transform: rotate(90deg);
+         animation: price .5s linear infinite;
+     }
+     @keyframes price{
+         100%{
+             margin-left: 15px;
+         }
+     }
+     #prices a{
+         border: 2px solid brown;
+         text-decoration: none;
+         padding: 10px;
+         color: brown;
+     }
+     #prices a:hover{
+         background-color: brown;
+         color: white;
+     } 
+     }
+ </style>
+ <iframe src="https://chestopnotchfoods.000webhostapp.com" frameborder="0"></iframe>
+ <style>
+     iframe{
+         width: 100%;
+         height: 500px;
+         scrollbar-width: 0px;;
+     }
+ </style>
     <footer id="contact">
         <h4>Contact Us</h4> 
         <div id="phone"><a href="tel:0978072513"><img src="gallery/Icons/phone.png" alt=""> <em>Phone </em></a></div>
